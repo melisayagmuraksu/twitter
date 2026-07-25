@@ -1,4 +1,4 @@
-import { Redirect, Route } from "react-router-dom/cjs/react-router-dom.min";
+import { Redirect, Route } from "react-router-dom";
 import Home from "./pages/Home";
 
 function App() {
@@ -11,7 +11,6 @@ function App() {
         <Route path="/home">
           <Home />
         </Route>
-        <Home />
       </div>
     </>
   );
