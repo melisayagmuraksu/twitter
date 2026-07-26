@@ -1,5 +1,6 @@
 import MenuItem from "./MenuItem";
 import { menu } from "../utils";
+import User from "./User";
 
 function LeftSidebar() {
   return (
@@ -7,6 +8,7 @@ function LeftSidebar() {
       {menu.map((item, index) => (
         <MenuItem key={index} item={item} />
       ))}
+      <User />
     </div>
   );
 }
