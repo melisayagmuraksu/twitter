@@ -35,6 +35,7 @@ function LoginForm() {
         <input
           className="p-3 border border-gray-600 rounded-md"
           placeholder="Phone number, email address"
+          data-testid="usernameInput"
           {...register("username", {
             minLength: {
               value: 5,
@@ -48,6 +49,7 @@ function LoginForm() {
         <input
           className="p-3 border border-gray-600 rounded-md"
           placeholder="Password"
+          data-testid="passwordInput"
           type="password"
           {...register("password", {
             pattern: {
