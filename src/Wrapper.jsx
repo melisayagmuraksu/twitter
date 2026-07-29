@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
+import { BrowserRouter } from "react-router-dom";
 import AuthContextProvider from "./contexts/AuthContext";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";

@@ -2,13 +2,16 @@
   "name": "twitter",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://melisayagmuraksu.github.io/twitter/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.3.1",
@@ -35,6 +38,7 @@
     "eslint": "^10.6.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.3",
+    "gh-pages": "^6.3.0",
     "globals": "^17.7.0",
     "jest": "^30.4.2",
     "jest-environment-jsdom": "^30.4.1",

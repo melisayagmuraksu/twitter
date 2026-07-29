@@ -4,6 +4,8 @@ import { AuthContext } from "../contexts/AuthContext";
 function User() {
   const { user, logOut } = useContext(AuthContext);
 
+  if (!user) return null;
+
   return (
     <div className="flex justify-between items-center gap-4 fixed bottom-4">
       <img src="https://picsum.photos/200" className="rounded-full w-10" />

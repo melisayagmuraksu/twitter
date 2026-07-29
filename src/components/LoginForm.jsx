@@ -64,7 +64,7 @@ function LoginForm() {
         )}
         <button
           disabled={!isValid}
-          className="bg-blue-400 rounded-full py-3 cursor-pointer hover:bg-blue-500 disabled:bg-gray-500 disabled: cursor-default"
+          className="bg-blue-400 rounded-full py-3 cursor-pointer hover:bg-blue-500 disabled:bg-gray-500 disabled:cursor-default"
         >
           Log In
         </button>
