@@ -2,7 +2,7 @@
   "name": "twitter",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://melisayagmuraksu.github.io/twitter/",
+  "homepage": "https://melisayagmuraksu.github.io/twitter",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
-     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.3.1",
